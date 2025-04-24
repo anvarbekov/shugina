@@ -186,7 +186,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { CiDeliveryTruck } from 'react-icons/ci';
 import { useCart } from '../../hooks/CartContext';
-import Loader from '../loader/loader';
+import Loader from '../loader/Loader';
 import { AiFillStar } from 'react-icons/ai';
 
 const customImageArray = [

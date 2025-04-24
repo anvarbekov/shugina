@@ -63,7 +63,7 @@ import { useFetch } from "../../hooks/useFetch";
 import { Link } from "react-router-dom";
 import { useCart } from "../../hooks/CartContext";
 // import { Button } from "@/components/ui/button" //  JSda kerak emas
-import Loader from "../loader/loader";
+import Loader from "../loader/Loader";
 
 // O'zbekiston so'mi kursi (taxminiy)
 const UZS_RATE = 12000; // Bu kursni yangilab turish kerak
