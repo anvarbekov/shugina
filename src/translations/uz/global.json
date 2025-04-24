@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "all": "Barchasi"
+    },
+    "navbar": {
+        "city": "Shahar",
+        "contacts": "Kontaktlar",
+        "products": "Mahsulotlar",
+        "catalog": "Katalog",
+        "searchPlaceholder": "Mahsulotlarni qidiring...",
+        "login": "Kirish"
+    },
+    "sidebar": {
+        "smartphones": "Smartfonlar va gadjetlar"
+    }
+}

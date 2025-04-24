@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "all": "Все"
+    },
+    "navbar": {
+        "city": "Город",
+        "contacts": "Контакты",
+        "products": "Продукты",
+        "catalog": "Каталог",
+        "searchPlaceholder": "Поиск продуктов...",
+        "login": "Входить"
+    },
+    "sidebar": {
+        "smartphones": "Смартфоны и гаджеты"
+    }
+}

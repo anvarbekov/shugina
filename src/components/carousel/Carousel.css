@@ -1,0 +1,55 @@
+.swiper {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  /* Hide default Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+/* Custom navigation buttons */
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+  font-size: 1.5rem;
+  color: rgb(15, 63, 97);
+  background-color: #ccc;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.custom-swiper-button-prev {
+  left: 15px; /* Position of previous button */
+}
+
+.custom-swiper-button-next {
+  right: 15px; /* Position of next button */
+}
+
+/* Pagination */
+.swiper-pagination-bullet {
+  background-color: #00ff00; /* Change the pagination bullet color to green */
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0000ff; /* Change the active bullet color to blue */
+}
